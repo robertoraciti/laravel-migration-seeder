@@ -17,6 +17,7 @@ return new class extends Migration {
             $table->string('azienda');
             $table->string('departure_station');
             $table->string('arrival_station');
+            $table->date('departure_date');
             $table->time('departure_time')->nullable();
             $table->time('arrival_time')->nullable();
             $table->smallInteger('train_code');

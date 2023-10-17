@@ -11,6 +11,7 @@
           <div class="card-body">
             <h5 class="card-title">Azienda: {{ $train->azienda }}</h5>
             <h6 class="card-text">Cod. Treno: {{ $train->train_code }}</h6>
+            <p class="card-text">Data di partenza: {{ $train->departure_date }}</p>
             <p class="card-text mb-2">Stazione di partenza: {{ $train->departure_station }}</p>
             <p class="card-text">Stazione d'arrivo: {{ $train->arrival_station }}</p>
             <p class="card-text">Orario di partenza: {{ $train->departure_time }}</p>

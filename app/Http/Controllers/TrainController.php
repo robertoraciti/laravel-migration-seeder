@@ -11,6 +11,6 @@ class TrainController extends Controller
     {
         $trains = Train::all();
 
-        return view('/home', compact('trains'));
+        return view('home', compact('trains'));
     }
 }
